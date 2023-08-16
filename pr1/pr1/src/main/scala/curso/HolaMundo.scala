@@ -1,5 +1,7 @@
 package curso
 
-object HolaMundo extends App{
-  println("Esto es un ejemplo de APP de Scala")
+object HolaMundo {
+  def main(args: Array[String]):Unit = {
+    println("Esto es un ejemplo de APP de Scala")
+  }
 }
